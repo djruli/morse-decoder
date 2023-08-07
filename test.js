@@ -31,7 +31,7 @@ describe("Easy", function() {
         const result = "someone reads this";
         expect(decode(expr)).to.equal(result);
     });
-    
+
     it("Sentence test 6", function() {
         const expr = "001010101000000000100011101111**********001110111100001111110000101011**********0010101010000000001000101110100010111110**********00000011110000000010";
         const result = "hey you help me";
@@ -82,7 +82,7 @@ describe("Medium", function() {
         const result = "0e596200";
         expect(decode(expr)).to.equal(result);
     });
-    
+  
     it("Medium line length test 4", function() {
         const expr = "10111111111111101010001110101000101011101010111111101010101011111111101110101010";
         const result = "17bf2596";
@@ -306,4 +306,4 @@ describe("Hard (what's going on)", function() {
         const result = "ed3ca775829b4b8c0e59620017bf2596b27d0c5cd3de8eac0a145c4f25b31a63e2ebf340c4335a826c443ecea6069f50a836fdc35cc6c2a94cdf5da0fb3b6acb";
         expect(decode(expr)).to.equal(result);
     });
-})
+});
